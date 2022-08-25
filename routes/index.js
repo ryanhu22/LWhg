@@ -13,5 +13,10 @@ router.get('/signup', (req, res) => {
     res.render('signup')
 })
 
+function showInfo() {
+    console.log("clicked butotn")
+    document.getElementById('contactButton').value = "6268628312"
+}
+
 // Export this router
 module.exports = router
