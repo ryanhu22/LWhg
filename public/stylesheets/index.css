@@ -2,6 +2,7 @@
 .faq-heading{
     border-bottom: #777;
     padding: 20px 60px;
+    text-align: center;
 }
 .faq-container{
     display: flex;
@@ -11,7 +12,7 @@
 .hr-line{
   width: 60%;
   margin: auto;
-  
+
 }
 /* Style the buttons that are used to open and close the faq-page body */
 .faq-page {
@@ -24,13 +25,14 @@
     outline: none;
     transition: 0.4s;
     margin: auto;
+    text-align: center;
 }
 .faq-body{
     margin: auto;
     /* text-align: center; */
-   width: 50%; 
+   width: 50%;
    padding: auto;
-   
+
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
@@ -55,4 +57,15 @@
 .active:after {
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
+}
+
+#welcome {
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; */
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    color: #31B4F2;
 }
